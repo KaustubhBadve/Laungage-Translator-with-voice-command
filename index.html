@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launguge Translator</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div id="heading">Language Translator</div>
+    <div id="A">Select Laungage first to continue..</div>
+
+    <div id="select">
+        <select name="inp_lang" id="inp_lang">
+            <option value="">Select Laungage here</option>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+        </select>
+    
+        <select name="out_lang" id="out_lang">
+            <option value="">Select Laungage here</option>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+        </select>
+    </div>
+
+    <div id="container">
+    <div id="input">
+        <textarea name="input-text" id="input-text" oninput="debouncing(combine,1000)" placeholder="Start Typing Here..."></textarea>
+    </div>
+      <div>
+        <button id="btntoclick" onclick="Translate()" >Translate</button><br>    
+        <button id="record"><i class="fa-solid fa-microphone"></i></button>       
+      </div>
+    
+
+    <div id="output">
+        <p id="output_values">Translation</p>
+    </div>
+</div>
+</body>
+</html>
+
+
+<script src="./index.js">
+</script>
