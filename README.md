@@ -24,6 +24,8 @@ These are the technologies used in this project which are available below:
 # Functionalities we made:
 
 
+Language translator app where user can translate from English to hindi and vice versa, In addition he can also use Voice Command by which he can directly skip writing part.
+<hr>
 NetlifyLink : https://clever-elf-cea305.netlify.app/
 
 I would say, thank you for reading this here. I hope you will find it helpful. I have completed this project with full enthusiasm, focus, and hard work. It may have some bugs, but I will try to fix them soon.
