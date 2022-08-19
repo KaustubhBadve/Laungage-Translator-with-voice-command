@@ -18,6 +18,8 @@ These are the technologies used in this project which are available below:
 
 <li>Javascript</li>
 
+<li>Laungage transaltor API</li>
+
 <li>CSS</li>
 
 
