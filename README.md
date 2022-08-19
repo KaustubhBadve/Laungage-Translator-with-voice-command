@@ -21,7 +21,7 @@ These are the technologies used in this project which are available below:
 <li>CSS</li>
 
 
-# Functionalities we made:
+# Functionalities I made:
 
 
 Language translator app where user can translate from English to hindi and vice versa, In addition he can also use Voice Command by which he can directly skip writing part.
